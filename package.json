@@ -1,5 +1,5 @@
 {
-  "name": "vue-dialog-x",
+  "name": "vue-dialog-x2",
   "version": "0.2.6",
   "main": "dist/vue-dialog-x.js",
   "scripts": {
@@ -8,7 +8,7 @@
     "build:window": "webpack --config build/webpack.build.window.config.js",
     "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.config.js",
     "build:demo": "webpack --config build/webpack.demo.build.config.js",
-    "release": "npm run test && npm run build && npm run docs:build && npm run build:window && npm run build:demo && git add . && git commit . -m '发布新版本' && git push && npm publish",
+    "release": "npm run test && npm run build && npm run docs:build && npm run build:window && npm run build:demo && git add . && git commit . -m 'Release' && git push && npm publish",
     "precommit": "npm run test",
     "docs:dev": "vuepress dev docs/",
     "docs:build": "vuepress build docs/"
@@ -85,5 +85,31 @@
   "browserslist": [
     "> 1%",
     "last 2 versions"
-  ]
+  ],
+  "description": "<p align=\"center\">\r   <!-- <a href=\"https://travis-ci.org/a62527776a/vue-dialog-x\">\r     <img src=\"https://travis-ci.org/a62527776a/vue-dialog-x.svg?branch=master\">\r   </a> -->\r   <a href='https://coveralls.io/github/a62527776a/vue-dialog-x?branch=master'><img src='https://coveralls.io/repos/github/a62527776a/vue-dialog-x/badge.svg?branch=master' alt='Coverage Status' /></a>\r   <a href=\"https://www.npmjs.com/package/vue-dialog-x\"><img src=\"https://img.shields.io/npm/dm/vue-dialog-x.svg\" /></a>\r   <br>\r   </a>\r   <img alt=\"npm type definitions\" src=\"https://img.shields.io/npm/types/vue-dialog-x\">\r   <img alt=\"npm\" src=\"https://img.shields.io/npm/v/vue-dialog-x\">\r   <p style=\"text-align: center\">支持Promise的iOS样式风格的弹窗提示</p>\r </p>",
+  "bin": {
+    "vue-dialog-x2": "publish.js"
+  },
+  "directories": {
+    "doc": "docs",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anhlt-nws/vue-dialog-x2.git"
+  },
+  "keywords": [
+    "vue",
+    "typescript",
+    "vuejs",
+    "ios",
+    "dialog",
+    "alert"
+  ],
+  "author": "Le Tuan Anh <anhlt@newwave.vn>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/anhlt-nws/vue-dialog-x2/issues"
+  },
+  "homepage": "https://github.com/anhlt-nws/vue-dialog-x2#readme"
 }

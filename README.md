@@ -4,12 +4,12 @@
   <!-- <a href="https://travis-ci.org/a62527776a/vue-dialog-x">
     <img src="https://travis-ci.org/a62527776a/vue-dialog-x.svg?branch=master">
   </a> -->
-  <a href='https://coveralls.io/github/a62527776a/vue-dialog-x?branch=master'><img src='https://coveralls.io/repos/github/a62527776a/vue-dialog-x/badge.svg?branch=master' alt='Coverage Status' /></a>
-  <a href="https://www.npmjs.com/package/vue-dialog-x"><img src="https://img.shields.io/npm/dm/vue-dialog-x.svg" /></a>
+  <!-- <a href='https://coveralls.io/github/a62527776a/vue-dialog-x?branch=master'><img src='https://coveralls.io/repos/github/a62527776a/vue-dialog-x/badge.svg?branch=master' alt='Coverage Status' /></a> -->
+  <a href="https://www.npmjs.com/package/vue-dialog-x2"><img src="https://img.shields.io/npm/dm/vue-dialog-x2.svg" /></a>
   <br>
   </a>
-  <img alt="npm type definitions" src="https://img.shields.io/npm/types/vue-dialog-x">
-  <img alt="npm" src="https://img.shields.io/npm/v/vue-dialog-x">
+  <img alt="npm type definitions" src="https://img.shields.io/npm/types/vue-dialog-x2">
+  <img alt="npm" src="https://img.shields.io/npm/v/vue-dialog-x2">
   <p style="text-align: center">支持Promise的iOS样式风格的弹窗提示</p>
 </p>
 
@@ -37,7 +37,7 @@
 
 ## Links
 
-[demo](https://htmlpreview.github.io/?https://github.com/a62527776a/vue-dialog-x/blob/master/docs/demo/index.html)
+[demo](https://htmlpreview.github.io/?https://github.com/anhlt-nws/vue-dialog-x2/blob/master/docs/demo/index.html)
 
 [Homepage and documentation](https://vue-dialog-x.github.io/)
 

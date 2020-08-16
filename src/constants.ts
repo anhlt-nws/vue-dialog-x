@@ -18,22 +18,22 @@ export interface GlobalOptions {
 }
 
 export enum DIALOG_TYPES {
-  ALERT   = 'ALERT',
+  ALERT = 'ALERT',
   CONFIRM = 'CONFIRM',
-  PROMPT  = 'PROMPT',
+  PROMPT = 'PROMPT',
   ACTIONS = 'ACTIONS',
-  DIALOG  = 'DIALOG'
+  DIALOG = 'DIALOG'
 }
 
 export const DEFAULT_OPTIONS: GlobalOptions = {
-  title: '提示',
+  title: 'Alert',
   message: '',
   dialogType: DIALOG_TYPES.ALERT,
   okTextColor: '#007aff',
   reverse: false,
   cancelTextColor: '#007aff',
-  okText: '确认',
-  cancelText: '取消',
+  okText: 'OK',
+  cancelText: 'Cancel',
   html: '',
   actions: null
 }
